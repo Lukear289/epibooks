@@ -11,12 +11,16 @@ class AllTheBooks extends Component {
     return (
       <>
         <Container>
-          <Row>
+          <Row className="g-4">
             {MyBooks.map((scifi) => {
               return (
                 <Col xs={12} md={4}>
                   <Card className="h-100">
-                    <Card.Img variant="top" src={scifi.img} />
+                    <Card.Img
+                      variant="top"
+                      src={scifi.img}
+                      className="vh-100"
+                    />
                     <Card.Body>
                       <Card.Title>{scifi.title}</Card.Title>
                       <Card.Text>{scifi.category}</Card.Text>

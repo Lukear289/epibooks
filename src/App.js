@@ -7,7 +7,7 @@ import Welcome from './Welcome';
 
 function App() {
   return (
-    <div>
+    <div className="bg-secondary ">
       <header>
         <MyNav />
       </header>
