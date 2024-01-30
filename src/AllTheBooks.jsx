@@ -15,7 +15,7 @@ class AllTheBooks extends Component {
             {MyBooks.map((scifi) => {
               return (
                 <Col xs={12} md={4}>
-                  <Card style={{ width: '15rem' }}>
+                  <Card className="h-100">
                     <Card.Img variant="top" src={scifi.img} />
                     <Card.Body>
                       <Card.Title>{scifi.title}</Card.Title>
