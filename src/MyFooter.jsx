@@ -5,7 +5,7 @@ const MyFooter = function () {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col className="text-center">
           <p>Footer</p>
         </Col>
       </Row>
