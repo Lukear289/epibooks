@@ -4,6 +4,7 @@ import MyNav from './MyNav';
 import MyFooter from './MyFooter';
 import AllTheBooks from './AllTheBooks';
 import Welcome from './Welcome';
+import Singlebook from './SingleBook';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </section>
       <main>
         <AllTheBooks />
+        <Singlebook />
       </main>
       <footer>
         <MyFooter />
